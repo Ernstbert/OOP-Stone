@@ -1,0 +1,14 @@
+[project_data]
+project_name = "game"
+makefile_path = "."
+maketarget = "noasan"
+
+[[testcases]]
+name = "new_big_tutor_test"
+testcase_type = "IO"
+description = "New test based on the Gameplay Example provided by the tutors."
+exp_file = "custom_config/new/GameplayExampleOut"
+in_file = "custom_config/new/GameplayExampleIn"
+args = "config/config01.json"
+env_vars = "RAND_SEED=12345"
+exp_retvar = 0

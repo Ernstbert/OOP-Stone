@@ -1,0 +1,61 @@
+{
+  "Creatures" : [
+    {
+      "name": "Big Wall",
+      "mana_cost": 7,
+      "damage_points": 2,
+      "liFe_points": 9,
+      "shield": true,
+      "mana_drain": false
+    },
+    {
+      "shield": false,
+      "damage_points": 9,
+      "life_points": 0,
+      "Mana_cost": 7,
+      "name": "Bigfoot",
+      "mana_drain": false
+    },
+    {
+      "name": "GoblinDerGrosse",
+      "mana_cost": 22,
+      "damage_points": 10,
+      "life_points": 2,
+      "shield": false,
+      "mana_drain": false
+    },
+    {
+      "mana_cost": 0,
+      "damage_points": 9,
+      "life_points": 1,
+      "shield": false,
+      "mana_drain": true,
+      "name": "Gugelhupf"
+    },
+    {
+      "damage_points": 3,
+      "life_points": 9,
+      "name": "Rattenfänger",
+      "mana_cost": 18,
+      "shield": true,
+      "mana_drain": false
+    }
+  ],
+  "Spells" : [
+    {
+      "name": "Healer"
+    },
+    {
+      "name": "Relief"
+    },
+    {
+      "name": "Rebirth"
+    },
+    {
+      "name": "Dracula"
+    },
+    {
+      "name": "Mozart"
+    }
+  ]
+}

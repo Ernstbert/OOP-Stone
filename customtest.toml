@@ -1,0 +1,454 @@
+[project_data]
+project_name = "game"
+makefile_path = "."
+maketarget = "noasan"
+
+[[testcases]]
+name = "invalid_no_creature_sectoin"
+testcase_type = "IO"
+description = "No creature section."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_no_creature_section.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_no_spell_sectoin"
+testcase_type = "IO"
+description = "No creature section."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_no_spell_section.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_too_few_cards"
+testcase_type = "IO"
+description = "Too few cards."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_too_few_cards.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_name_too_long"
+testcase_type = "IO"
+description = "Name of Creature too long."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_too_few_cards.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_damage_duplicate_names"
+testcase_type = "IO"
+description = "Duplicate cards with different values."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_duplicate_names.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_damage_float"
+testcase_type = "IO"
+description = "Damage is a float."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_damage_float.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_life_float"
+testcase_type = "IO"
+description = "Life is a float."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_life_float.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_mana_float"
+testcase_type = "IO"
+description = "Mana is a float."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_mana_float.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_damage_letter"
+testcase_type = "IO"
+description = "Damage is a letter."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_damage_letter.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_life_letter"
+testcase_type = "IO"
+description = "Life is a letter."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_life_letter.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_mana_letter"
+testcase_type = "IO"
+description = "Mana is a letter."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_mana_letter.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_damage_too_high"
+testcase_type = "IO"
+description = "Damage value too high."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_damage_too_high.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_life_too_high"
+testcase_type = "IO"
+description = "Life value too high."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_life_too_high.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_mana_too_high"
+testcase_type = "IO"
+description = "Mana value too high."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_mana_too_high.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_damage_too_low"
+testcase_type = "IO"
+description = "Damage value too low."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_damage_too_low.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_life_too_low"
+testcase_type = "IO"
+description = "Life value too low."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_life_too_low.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_mana_too_low"
+testcase_type = "IO"
+description = "Mana value too low."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_mana_too_low.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_double_value_name"
+testcase_type = "IO"
+description = "Name has two values."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_double_value_name.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_double_value_damage"
+testcase_type = "IO"
+description = "Damage has two values."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_double_value_damage.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_double_value_life"
+testcase_type = "IO"
+description = "Life has two values."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_double_value_life.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_double_value_mana"
+testcase_type = "IO"
+description = "Mana has two values."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_double_value_mana.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_double_value_shield"
+testcase_type = "IO"
+description = "Shiele has two values."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_double_value_shield.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_double_value_speedy"
+testcase_type = "IO"
+description = "Speedy has two values."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_double_value_speedy.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_additional_drain"
+testcase_type = "IO"
+description = "Drain name in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_additional_drain.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_additional_damage"
+testcase_type = "IO"
+description = "Double damage in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_additional_damage.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_additional_life"
+testcase_type = "IO"
+description = "Double life in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_additional_life.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_additional_mana"
+testcase_type = "IO"
+description = "Double mana in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_additional_mana.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_additional_shiield"
+testcase_type = "IO"
+description = "Double shield in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_additional_shield.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_additional_drain"
+testcase_type = "IO"
+description = "Double drain in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_additional_drain.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_additional_speedy"
+testcase_type = "IO"
+description = "Double speedy in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_additional_speedy.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_name"
+testcase_type = "IO"
+description = "Name missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_name.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_damage"
+testcase_type = "IO"
+description = "Damage missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_damage.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_life"
+testcase_type = "IO"
+description = "Life missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_life.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_mana"
+testcase_type = "IO"
+description = "Mana missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_mana.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_drain"
+testcase_type = "IO"
+description = "Drain missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_drain.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_shield"
+testcase_type = "IO"
+description = "Shield missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_shield.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_speedy"
+testcase_type = "IO"
+description = "Speedy missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_speedy.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_value_name"
+testcase_type = "IO"
+description = "Name value missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_value_name.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_value_damage"
+testcase_type = "IO"
+description = "Damage value missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_value_damage.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_value_life"
+testcase_type = "IO"
+description = "Life value missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_value_life.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_value_mana"
+testcase_type = "IO"
+description = "Mana value missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_value_mana.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_value_drain"
+testcase_type = "IO"
+description = "Drain value missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_value_drain.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_value_shield"
+testcase_type = "IO"
+description = "Shield value missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_value_shield.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_missing_value_speedy"
+testcase_type = "IO"
+description = "Speedy value missing in one Creature."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_missing_value_speedy.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_drain_wrong"
+testcase_type = "IO"
+description = "Drain invalid string."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_drain_wrong.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_shield_wrong"
+testcase_type = "IO"
+description = "Shield invalid string."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_shield_wrong.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_speedy_wrong"
+testcase_type = "IO"
+description = "Speedy invalid string."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_speedy_wrong.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "invalid_spell"
+testcase_type = "IO"
+description = "Spell spelled wrong."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_invalid_spell.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "junk_data"
+testcase_type = "IO"
+description = "Junk data in Creatures."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_junk_data.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3
+
+[[testcases]]
+name = "junk_data_end_of_file"
+testcase_type = "IO"
+description = "Junk data at the very end."
+exp_file = "custom_config/invalid_config/output_invalid_config"
+args = "custom_config/invalid_config/e_config_junk_data_end_of_file.json"
+env_vars = "RAND_SEED=3236717796"
+exp_retvar = -3

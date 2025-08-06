@@ -1,0 +1,212 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$ref": "#/definitions/config01",
+  "definitions": {
+    "config01": {
+      "title": "config01",
+      "description": "Config for Creatures and Spells",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Creatures": {
+          "type": "array",
+          "oneOf": [
+            {
+              "items": {
+                "$ref": "#/definitions/Creature"
+              }
+            },
+            {
+              "items": {
+                "$ref": "#/definitions/Creature_Bonus"
+              }
+            }
+          ],
+          "minItems": 0
+        },
+        "Spells": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Spell"
+          },
+          "minItems": 0
+        }
+      },
+      "anyOf": [
+        {
+          "properties": {
+            "Creatures": {"minItems": 10},
+            "Spells": {"minItems": 0}
+          }
+        },
+        {
+          "properties": {
+            "Creatures": {"minItems": 9},
+            "Spells": {"minItems": 1}
+          }
+        },
+        {
+          "properties": {
+            "Creatures": {"minItems": 8},
+            "Spells": {"minItems": 2}
+          }
+        },
+        {
+          "properties": {
+            "Creatures": {"minItems": 7},
+            "Spells": {"minItems": 3}
+          }
+        },
+        {
+          "properties": {
+            "Creatures": {"minItems": 6},
+            "Spells": {"minItems": 4}
+          }
+        },
+        {
+          "properties": {
+            "Creatures": {"minItems": 5},
+            "Spells": {"minItems": 5}
+          }
+        },
+        {
+          "properties": {
+            "Creatures": {"minItems": 4},
+            "Spells": {"minItems": 6}
+          }
+        },
+        {
+          "properties": {
+            "Creatures": {"minItems": 3},
+            "Spells": {"minItems": 7}
+          }
+        },
+        {
+          "properties": {
+            "Creatures": {"minItems": 2},
+            "Spells": {"minItems": 8}
+          }
+        },
+        {
+          "properties": {
+            "Creatures": {"minItems": 1},
+            "Spells": {"minItems": 9}
+          }
+        },
+        {
+          "properties": {
+            "Creatures": {"minItems": 0},
+            "Spells": {"minItems": 10}
+          }
+        }
+      ],
+      "maxProperties": 2,
+      "required": ["Creatures", "Spells"]
+    },
+    "Creature": {
+      "title": "Creature",
+      "description": "Array with Creature-Cards",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "maxLength": 8
+        },
+        "mana_cost": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 15
+        },
+        "damage_points": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "life_points": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9
+        },
+        "shield": {
+          "type": "boolean"
+        },
+        "mana_drain": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "damage_points",
+        "life_points",
+        "mana_cost",
+        "mana_drain",
+        "name",
+        "shield"
+      ],
+      "minProperties": 6,
+      "maxProperties": 6
+    },
+    "Creature_Bonus": {
+      "title": "Creature_Bonus",
+      "description": "Creature-Configuration for Speedy Bonus",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "maxLength": 8
+        },
+        "mana_cost": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 15
+        },
+        "damage_points": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "life_points": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9
+        },
+        "shield": {
+          "type": "boolean"
+        },
+        "mana_drain": {
+          "type": "boolean"
+        },
+        "speedy": {
+          "type": "boolean",
+          "enum": [ true, false ]
+        }
+      },
+      "required": [
+        "damage_points",
+        "life_points",
+        "mana_cost",
+        "mana_drain",
+        "name",
+        "shield",
+        "speedy"
+      ],
+      "minProperties": 7,
+      "maxProperties": 7
+    },
+    "Spell": {
+      "title": "Spell",
+      "description": "Array with Spell-Cards",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "enum": ["Healer", "Relief", "Rebirth", "Dracula"]
+        }
+      },
+      "required": ["name"],
+      "maxProperties": 1
+    }
+  }
+}

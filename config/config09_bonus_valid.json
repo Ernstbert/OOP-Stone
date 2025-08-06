@@ -1,0 +1,287 @@
+{
+  "Creatures" : [
+    {
+      "name": "Big Wall",
+      "mana_cost": 7,
+      "damage_points": 2,
+      "life_points": 9,
+      "shield": true,
+      "mana_drain": false,
+      "speedy": true
+    },
+    {
+      "name": "Bigfoot",
+      "mana_cost": 7,
+      "damage_points": 9,
+      "life_points": 3,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+    {
+      "name": "Cristian",
+      "mana_cost": 14,
+      "damage_points": 9,
+      "life_points": 9,
+      "shield": false,
+      "mana_drain": true,
+      "speedy": true
+    },
+    {
+      "name": "Simone",
+      "mana_cost": 2,
+      "damage_points": 1,
+      "life_points": 2,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+    {
+      "name": "Golem",
+      "mana_cost": 8,
+      "damage_points": 7,
+      "life_points": 8,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+    {
+      "name": "Elf",
+      "mana_cost": 4,
+      "damage_points": 3,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+    {
+      "name": "Big Wall",
+      "mana_cost": 7,
+      "damage_points": 2,
+      "life_points": 9,
+      "shield": true,
+      "mana_drain": false,
+      "speedy": true
+    },
+    {
+      "name": "Bigfoot",
+      "mana_cost": 7,
+      "damage_points": 9,
+      "life_points": 3,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+{
+      "name": "Golem",
+      "mana_cost": 8,
+      "damage_points": 7,
+      "life_points": 8,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+    {
+      "name": "Elf",
+      "mana_cost": 4,
+      "damage_points": 3,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+{
+      "name": "Golem",
+      "mana_cost": 8,
+      "damage_points": 7,
+      "life_points": 8,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+    {
+      "name": "Elf",
+      "mana_cost": 4,
+      "damage_points": 3,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+{
+      "name": "Golem",
+      "mana_cost": 8,
+      "damage_points": 7,
+      "life_points": 8,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+    {
+      "name": "Elf",
+      "mana_cost": 4,
+      "damage_points": 3,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+{
+      "name": "Golem",
+      "mana_cost": 8,
+      "damage_points": 7,
+      "life_points": 8,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+    {
+      "name": "Raphi",
+      "mana_cost": 1,
+      "damage_points": 4,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": false
+    }, {
+      "name": "Raphi",
+      "mana_cost": 1,
+      "damage_points": 4,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": false
+    }, {
+      "name": "Raphi",
+      "mana_cost": 1,
+      "damage_points": 4,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": false
+    }, {
+      "name": "Raphi",
+      "mana_cost": 1,
+      "damage_points": 4,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": false
+    }, {
+      "name": "Raphi",
+      "mana_cost": 1,
+      "damage_points": 4,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": false
+    }, {
+      "name": "Raphi",
+      "mana_cost": 1,
+      "damage_points": 4,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": false
+    }, {
+      "name": "Raphi",
+      "mana_cost": 1,
+      "damage_points": 4,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": false
+    }, {
+      "name": "Raphi",
+      "mana_cost": 1,
+      "damage_points": 4,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": false
+    }, {
+      "name": "Raphi",
+      "mana_cost": 1,
+      "damage_points": 4,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": false
+    }, {
+      "name": "Raphi",
+      "mana_cost": 1,
+      "damage_points": 4,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": false
+    }, {
+      "name": "Raphi",
+      "mana_cost": 1,
+      "damage_points": 4,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": false
+    }, {
+      "name": "Raphi",
+      "mana_cost": 1,
+      "damage_points": 4,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": false
+    },
+    {
+      "name": "Elf",
+      "mana_cost": 4,
+      "damage_points": 3,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+    {
+      "name": "Elf",
+      "mana_cost": 4,
+      "damage_points": 3,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    },
+    {
+      "name": "Elf",
+      "mana_cost": 4,
+      "damage_points": 3,
+      "life_points": 4,
+      "shield": false,
+      "mana_drain": false,
+      "speedy": true
+    }
+  ],
+  "Spells" : [
+    {
+      "name": "Healer"
+    },{
+      "name": "Healer"
+    },{
+      "name": "Healer"
+    },
+    {
+      "name": "Relief"
+    },
+    {
+      "name": "Rebirth"
+    },{
+      "name": "Rebirth"
+    },{
+      "name": "Rebirth"
+    },{
+      "name": "Rebirth"
+    },
+    {
+      "name": "Dracula"
+    }
+  ]
+}

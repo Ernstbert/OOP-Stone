@@ -1,0 +1,41 @@
+{
+  "Creatures" : [
+    {
+      "name": "Miniwall",
+      "mana_cost": 1,
+      "damage_points": 0,
+      "life_points": 4,
+      "shield": true,
+      "mana_drain": false
+    }
+  ],
+  "Spells" : [
+    {
+      		"name": "Healer"
+    },
+    {
+			"name": "Relief"
+    },
+    {
+      				"name": "Rebirth"
+    },
+    {
+      					"name": "Relief"
+    },
+    {
+   						   "name": "Rebirth"
+    },
+    {
+   					   "name": "Relief"
+    },
+    {
+   				   "name": "Rebirth"
+    },
+    {
+  	             "name": "Dracula"
+    },
+{
+    	  "name": "Dracula"
+    }
+  ]
+}

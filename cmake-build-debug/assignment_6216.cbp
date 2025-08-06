@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="assignment_6216"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/joachim/Desktop/assignment_6216/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/joachim/Desktop/assignment_6216/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/joachim/Desktop/assignment_6216/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment_6216">
+				<Option output="/home/joachim/Desktop/assignment_6216/cmake-build-debug/assignment_6216" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joachim/Desktop/assignment_6216/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/joachim/Desktop/assignment_6216/."/>
+					<Add directory="/home/joachim/Desktop/assignment_6216/rapidjson"/>
+					<Add directory="/home/joachim/Desktop/assignment_6216/rapidjson/error"/>
+					<Add directory="/home/joachim/Desktop/assignment_6216/rapidjson/internal"/>
+					<Add directory="/home/joachim/Desktop/assignment_6216/rapidjson/msinttypes"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 assignment_6216"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment_6216/fast">
+				<Option output="/home/joachim/Desktop/assignment_6216/cmake-build-debug/assignment_6216" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joachim/Desktop/assignment_6216/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/joachim/Desktop/assignment_6216/."/>
+					<Add directory="/home/joachim/Desktop/assignment_6216/rapidjson"/>
+					<Add directory="/home/joachim/Desktop/assignment_6216/rapidjson/error"/>
+					<Add directory="/home/joachim/Desktop/assignment_6216/rapidjson/internal"/>
+					<Add directory="/home/joachim/Desktop/assignment_6216/rapidjson/msinttypes"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 assignment_6216/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/joachim/Desktop/assignment_6216/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Attack.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Attack.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Card.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Card.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Cast.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Cast.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Command.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Command.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/CreatureCard.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/CreatureCard.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Finish.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Finish.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Game.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Game.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Help.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Help.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Interface.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Interface.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/JsonParser.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/JsonParser.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Player.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Player.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Quit.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Quit.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Random.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Random.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Sacrifice.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/Sacrifice.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/SetCard.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/SetCard.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/SpellCard.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/SpellCard.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/State.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/State.hpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/main.cpp">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/allocators.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/cursorstreamwrapper.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/document.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/encodedstream.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/encodings.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/error/en.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/error/error.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/filereadstream.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/filewritestream.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/fwd.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/internal/biginteger.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/internal/clzll.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/internal/diyfp.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/internal/dtoa.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/internal/ieee754.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/internal/itoa.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/internal/meta.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/internal/pow10.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/internal/regex.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/internal/stack.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/internal/strfunc.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/internal/strtod.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/internal/swap.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/istreamwrapper.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/memorybuffer.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/memorystream.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/msinttypes/inttypes.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/msinttypes/stdint.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/ostreamwrapper.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/pointer.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/prettywriter.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/rapidjson.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/reader.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/schema.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/stream.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/stringbuffer.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/rapidjson/writer.h">
+			<Option target="assignment_6216"/>
+		</Unit>
+		<Unit filename="/home/joachim/Desktop/assignment_6216/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,37 @@
+{
+  "Creatures" : [
+
+  ],
+  "Spells" : [
+    {
+      "name": "Healer"
+    },
+    {
+      "name": "Rebirth"
+    },
+    {
+      "name": "Dracula"
+    },
+    {
+      "name": "Rebirth"
+    },
+    {
+      "name": "Dracula"
+    },
+    {
+      "name": "Rebirth"
+    },
+    {
+      "name": "Relief"
+    },
+    {
+      "name": "Rebirth"
+    },
+    {
+      "name": "Dracula"
+    },
+    {
+      "name": "Relief"
+    }
+  ]
+}

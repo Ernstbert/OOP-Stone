@@ -1,0 +1,28 @@
+{
+  "Creatures" : [
+    {
+      "name": "Wall",
+      "mana_cost": 7,
+      "damage_points": 2,
+      "life_points": 9,
+      "shield": true,
+      "mana_drain": false
+    },
+    {
+      "name": "Bigfoot",
+      "mana_cost": 7,
+      "damage_points": 9,
+      "life_points": 3,
+      "shield": false,
+      "mana_drain": false
+    }
+  ],
+  "Spells" : [
+    {
+      "name": "Healer"
+    },
+    {
+      "name": "Relief"
+    }
+  ]
+}

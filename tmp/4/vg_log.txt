@@ -1,0 +1,15 @@
+==5722== Memcheck, a memory error detector
+==5722== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5722== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==5722== Command: ./game custom_config/invalid_config/e_config_too_few_cards.json
+==5722== Parent PID: 5648
+==5722== 
+==5722== 
+==5722== HEAP SUMMARY:
+==5722==     in use at exit: 0 bytes in 0 blocks
+==5722==   total heap usage: 812 allocs, 812 frees, 375,033 bytes allocated
+==5722== 
+==5722== All heap blocks were freed -- no leaks are possible
+==5722== 
+==5722== For counts of detected and suppressed errors, rerun with: -v
+==5722== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

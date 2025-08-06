@@ -1,0 +1,91 @@
+{
+  "Creatures" : [
+    {
+      "name": "12345678",
+      "mana_cost": 7,
+      "damage_points": 2,
+      "life_points": 9,
+      "shield": true,
+      "mana_drain": false
+    },
+    {
+      "name": "Bigfoot",
+      "mana_cost": 7,
+      "damage_points": 9,
+      "life_points": 3,
+      "shield": false,
+      "mana_drain": false
+    },
+    {
+      "name": "Florian",
+      "mana_cost": 6,
+      "damage_points": 1,
+      "life_points": 8,
+      "shield": true,
+      "mana_drain": false
+    },
+    {
+      "name": "Florian",
+      "mana_cost": 6,
+      "damage_points": 1,
+      "life_points": 8,
+      "shield": true,
+      "mana_drain": false
+    },
+    {
+      "name": "David A",
+      "mana_cost": 8,
+      "damage_points": 8,
+      "life_points": 7,
+      "shield": false,
+      "mana_drain": false
+    },
+    {
+      "name": "Michael",
+      "mana_cost": 6,
+      "damage_points": 5,
+      "life_points": 6,
+      "shield": false,
+      "mana_drain": false
+    },
+    {
+      "name": "Michael2",
+      "mana_cost": 6,
+      "damage_points": 5,
+      "life_points": 6,
+      "shield": false,
+      "mana_drain": false
+    },
+    {
+      "name": "Florian",
+      "damage_points": 1,
+       "mana_cost": 6,
+      "life_points": 8,
+      "shield": true,
+      "mana_drain": false
+    }
+  ],
+  "Spells" : [
+    {
+      "name": "Relief"
+    },
+    {
+      "name": "Rebirth"
+    },
+    {
+      "name": "Rebirth"
+    },
+    {
+      "name": "Healer"
+    },
+    {
+      "name": "Rebirth"
+    },
+    {
+      "name": "Rebirth"
+    },
+    {
+      "name": "Rebirth"
+    }
+  ]
+}
